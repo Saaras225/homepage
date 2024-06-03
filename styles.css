@@ -140,14 +140,27 @@
 }
   
 .intro__icon-wrapper {
-  margin-right: 30px;
+  margin-right: 15px;
   width: 30px;
   display: flex;
   justify-content: center;
 }
+
+.intro__icon-wrapper-right {
+  margin-left: 15px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+svg {
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+} 
   
 .intro__icon {
-  height: 1.1428rem;
+  height: 2.1428rem;
   vertical-align: text-bottom;
 }
   
